@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="Unity" Version="5.8.11" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoomBooking.Domain\RoomBooking.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

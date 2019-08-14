@@ -3,6 +3,5 @@ export class Todo{
     public id: Number,
     public title: String,
     public done: Boolean,
-    public name: String,
   ) { }
 }

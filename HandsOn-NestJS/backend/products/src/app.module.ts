@@ -6,7 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose/dist/mongoose.module';
 @Module({
   imports: [
     ProductModule,
-    MongooseModule.forRoot('mongodb+srv://admin:root@meancourse-u9bx1.mongodb.net/test?retryWrites=true&w=majority')
+    MongooseModule.forRoot('mongodb+srv://admin:root@meancourse-u9bx1.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true})
   ],
 })
 export class AppModule {}

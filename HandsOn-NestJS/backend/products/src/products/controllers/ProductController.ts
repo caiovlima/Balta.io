@@ -8,17 +8,20 @@ export class ProductController {
 
     @Post()
     async create(@Body() model: ProductModel) {
-        this.service.create(model);
+        const product = await this.service.create(model);
+        return product;
     }
 
     @Get('/')
     async get(): Promise<ProductModel[]> {
-        return this.service.get();
+        const product = await this.service.get();
+        return product;
     }
 
     @Get('/:id')
-    async getProduct(@Param('id') _id) {
-        return this.service.getById(_id);
+    async getProduct(@Param('id') id) {
+        const product = await this.service.getById(id);
+        return product;
     }
 
     @Delete('/delete/:id')
@@ -27,7 +30,8 @@ export class ProductController {
     }
 
     @Put('/update/:id')
-    async updateProduct(@Param('id') id, @Body('body') body) {
-        this.service.update(id, body);
+    async updateProduct(@Param('id') id, @Body() model: ProductModel) {
+        const product = await this.service.update(id, model);
+        return product;
     }
 }

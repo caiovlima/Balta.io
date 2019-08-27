@@ -28,8 +28,8 @@ export class ProductService {
             return product;
         }
 
-        async update(id: string, body: string): Promise<ProductModel> {
-            const product = await this.model.findByIdAndUpdate(id, ...body);
+        async update(_id: string, body: ProductModel): Promise<ProductModel> {
+            const product = await this.model.findOneAndUpdate(_id, body);
             return product;
         }
     

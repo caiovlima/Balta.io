@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductService {
 
-  BASE_URL: string = 'http://localhost:3000/v1';
+  BASE_URL: string = 'http://localhost:3000';
 
   constructor(private http: HttpClient) { }
 

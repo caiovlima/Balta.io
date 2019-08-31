@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-sm-4 offset-md-4">
     <div class="card card-body">
-      <form (submit)="submitProduct">
+      <form (ngSubmit)="submitProduct()" >
         <div class="form-group">
           <input type="text" name="name" [(ngModel)]="product.name"
             class="form-control" placeholder="Product Name" autofocus>
@@ -18,7 +18,7 @@
           <input type="text" name="imageURL" [(ngModel)]="product.imageURL"
             class="form-control" placeholder="Image URL">
         </div>
-        <button class="btn btn-primary btn-block">
+        <button type="submit" class="btn btn-primary btn-block">
           Save
         </button>
       </form>

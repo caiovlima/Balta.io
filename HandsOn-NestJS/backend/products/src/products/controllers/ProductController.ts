@@ -2,7 +2,7 @@ import { Controller, Get, Post, Put, Delete, Body, Res, Param } from '@nestjs/co
 import { ProductModel } from '../models/ProductModel';
 import { ProductService } from '../services/ProductService';
 
-@Controller('v1/products')
+@Controller('/products')
 export class ProductController {
     constructor(private readonly service: ProductService) { }
 

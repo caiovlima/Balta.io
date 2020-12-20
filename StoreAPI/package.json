@@ -1,0 +1,27 @@
+{
+  "name": "StoreAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/server.js",
+    "start": "node ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.5.5",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}

@@ -69,6 +69,8 @@ Each folder contains a specific topic were i learned:
 
 * [1973-PWA](https://github.com/caiovlima/Balta.io/tree/master/1973-PWA/instaionic) - <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"></code> 
 
+* [1974-NerCoreDapperAPI](https://github.com/caiovlima/Balta.io/tree/master/1974-NerCoreDapperAPI) - <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dotnet/dotnet.png"></code> 
+
 * [7181-ComecandoComAngular](https://github.com/caiovlima/Balta.io/tree/master/7181-ComecandoComAngular) - <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"></code> 
 
 * [HandsOn-NestJS](https://github.com/caiovlima/Balta.io/tree/master/HandsOn-NestJS) - <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code> 
